@@ -1,0 +1,111 @@
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
+}
+.logo {
+    width: 100%;
+    margin: 10% 0% 2.5% 0;
+    /*background-color: #FF0000;*/
+}
+.search {
+   width: 100%;
+   /*background-color: #00FF00;*/
+}
+.search input {
+    width: 30%;
+    -webkit-appearance: none;
+    height: 200%;
+    border-radius: 20px;
+    border: solid #cacaca .5px;
+}
+.btn-group {
+    width: 100%;
+    margin-top: 50px;
+    align-content: flex-end;
+}
+.btn-group button {
+    height: 4em;
+    padding: 16px;
+    width: 15em;
+    -webkit-appearance: none;
+    background-color: #f2f2f2;
+    color: #5f6368;
+    border: none;
+    border-radius: 5%;
+    margin: 0px 10px 0px 10px;
+}
+.container {
+    flex-grow: 1;
+    display: flex;
+    width: 100vw;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+.nav-bar {
+    list-style-type: none;
+    overflow: hidden;
+    margin: 0;
+    padding: 1em;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    height: auto;
+}
+.nav-bar li a {
+    text-decoration: none;
+    padding: 14px;
+    text-align: center;
+    color: black;
+    font-size: .75em;
+}
+.nav-bar img {
+    width: 20px;
+}
+.right-nav {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+}
+.right-nav button {
+    border-radius: 50%;
+    background-color: red;
+    border: none;
+    width: 3em;
+    height: 3em;
+}
+.right-nav button a {
+    color: white;
+}
+footer {
+    background-color: #f2f2f2;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-family: Arial, sans-serif;
+    font-size: .75em;
+    border-top: .5px solid  #e4e4e4;
+    flex-wrap: nowrap;
+}
+.lft-ftr {
+    padding: 1em;
+    align-items: flex-end;
+}
+.lft-ftr a {
+    text-decoration: none;
+    color: #5f6368;
+    padding: 1.25em;
+}
+.rt-ftr {
+    margin-left: auto;
+    padding: 1em;
+}
+.rt-ftr a {
+    text-decoration: none;
+    color: #5f6368;
+    padding: 1.25em;
+}
